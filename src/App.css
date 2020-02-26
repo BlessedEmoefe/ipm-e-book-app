@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+* {
+  font-family: "Port Lligat Sans";
+  font-family: "Roboto";
+  font-family: "Noto Sans KR";
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

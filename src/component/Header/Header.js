@@ -1,32 +1,43 @@
 import React from "react";
-import styles from "./Header.module.css";
+import { HeaderContainer } from "./Header.module.js";
 import Logo from "../../assets/logo.svg";
 import { Link } from "react-router-dom";
 
 class Header extends React.Component {
+  headerRebuild = () => {
+    // console.log(window.pageYOffset);
+    // if (window.screenTop > 100) {
+    
+    // }
+  };
   render() {
     return (
-      <div className={styles.Header}>
-        <div className={styles.logoContainer}>
+      <HeaderContainer
+      // className='
+      //   // this.headerRebuild ? InitialHeader : ScrolledHeader
+      //   InitialHeader
+      // }
+      >
+        <div className="logoContainer">
           <Link to="/">
-            <img src={Logo} className={styles.logo} />
+            <img src={Logo} className="logo" />
           </Link>
         </div>
-        <div className={styles.navbar}>
-          <Link className={styles.link} to="/about">
+        <div className="navbar">
+          <Link className="link" to="/about">
             About
           </Link>
-          <Link className={styles.link} to="/books">
+          <Link className="link" to="/books">
             Books
           </Link>
-          <Link className={styles.link} to="/news">
+          <Link className="link" to="/news">
             News
           </Link>
-          <Link className={styles.link} to="/support">
+          <Link className="link" to="/support">
             Support Us
           </Link>
         </div>
-      </div>
+      </HeaderContainer>
     );
   }
 }

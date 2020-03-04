@@ -1,7 +1,22 @@
-.home {
-  /* font-size: 0px; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
+
+  .initialHeader {
+    /* font-size: 0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 12000px;
+    background-color: red
+  }
+  .finalHeader{
+    background :green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 12000px;
+  }
+  .paragragh {
+    color: red;
+  }
+

@@ -1,8 +1,9 @@
 .footer {
   width: 100%;
   height: 70px;
-  background: orange;
+  background:#424874;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color:white;
 }

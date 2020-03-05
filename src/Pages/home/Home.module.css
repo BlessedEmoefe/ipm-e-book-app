@@ -1,22 +1,25 @@
+.homeHeader {
+  /* font-size: 0px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* height: 800px; */
+  width:100%
+}
 
-  .initialHeader {
-    /* font-size: 0px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    height: 12000px;
-    background-color: red
-  }
-  .finalHeader{
-    background :green;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    height: 12000px;
-  }
-  .paragragh {
-    color: red;
-  }
+.container{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
 
+.homeSlider{
+  width:100%;
+  height:600px;
+background: linear-gradient(rgba(87, 87, 87, 0.272),rgba(97, 54, 143, 0.272)),url("../../assets/books.webp");
+background-repeat: round;
+background-size: cover;
+}

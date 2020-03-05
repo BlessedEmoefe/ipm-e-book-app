@@ -4,9 +4,9 @@
   height: 130px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  transition: 1.5s;
-  
+  align-items: center;
+  transition: 1s;
+
   position: sticky;
 
   top: 0;
@@ -14,14 +14,13 @@
 .finalHeaderContainer {
   width: 90%;
   padding: 0 5%;
-  height: 60px;
-  background: green;
+  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: 1.5s;
+  transition: 1s;
   position: sticky;
-
+background:#424874;
   top: 0;
 }
 
@@ -43,7 +42,7 @@
   height: 40%;
 }
 .link {
-  color: grey;
+  color:#424874;
   text-decoration: none;
   font-size: 16px;
   transition: 0.5s;
@@ -54,8 +53,8 @@
   font-size: 17px;
   transition: 0.5s;
 }
-.finalHeaderContainer .link{
-  color: rgb(247, 245, 245);
+.finalHeaderContainer .link {
+  color:white;
   text-decoration: none;
   font-size: 16px;
   transition: 0.5s;

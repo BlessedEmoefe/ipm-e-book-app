@@ -1,14 +1,14 @@
 .initialHeaderContainer {
   width: 90%;
   padding: 0 5%;
-  height: 130px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 1s;
-
+  transition-delay: 0.2s;
   position: sticky;
-
+  background: transparent;
   top: 0;
 }
 .finalHeaderContainer {
@@ -20,7 +20,8 @@
   align-items: center;
   transition: 1s;
   position: sticky;
-background:#424874;
+  transition-delay: 0.2s;
+  background: #424874;
   top: 0;
 }
 
@@ -30,9 +31,15 @@ background:#424874;
   min-width: 10px;
   height: 100%;
 }
+.finalHeaderContainer .logo {
+  width: 100%;
+  height: 70px;
+  transition: 1s;
+}
 .logo {
   width: 100%;
-  height: 100%;
+  height: 100px;
+  transition: 1s;
 }
 .navbar {
   display: flex;
@@ -40,9 +47,10 @@ background:#424874;
   align-items: center;
   width: 30%;
   height: 40%;
+  flex-wrap: wrap;
 }
 .link {
-  color:#424874;
+  color: #424874;
   text-decoration: none;
   font-size: 16px;
   transition: 0.5s;
@@ -54,8 +62,14 @@ background:#424874;
   transition: 0.5s;
 }
 .finalHeaderContainer .link {
-  color:white;
+  color: white;
   text-decoration: none;
   font-size: 16px;
+  transition: 0.5s;
+}
+.finalHeaderContainer .link:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
   transition: 0.5s;
 }

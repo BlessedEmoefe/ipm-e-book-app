@@ -4,11 +4,12 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+
   /* height: 800px; */
-  width:100%
+  width: 100%;
 }
 
-.container{
+.container {
   display: flex;
   /* justify-content: space-between; */
   align-items: center;
@@ -16,10 +17,127 @@
   width: 100%;
 }
 
-.homeSlider{
-  width:100%;
-  height:600px;
-background: linear-gradient(rgba(87, 87, 87, 0.272),rgba(97, 54, 143, 0.272)),url("../../assets/books.webp");
-background-repeat: round;
-background-size: cover;
+.homeFirstSection {
+  width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(66, 72, 116, 0.87), rgba(9, 223, 38, 0.705)),
+    url("../../assets/081-5types-of-multipurpose-bookshelf.jpg");
+  background-repeat: round;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LandingPagecontent {
+  width: 80%;
+  padding: 0 10% 0 5%;
+  height: 60%;
+  /* background: red; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.landingText {
+  width: 50%;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  flex-direction: column;
+}
+.text1 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.text2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  margin: 10% 0 0 0;
+  padding: 10px 30px;
+  background: #424874;
+  border: 2px solid;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+.landingImage {
+  width: 30%;
+}
+.homeSecondSection {
+  width: 80%;
+  height: 400px;
+  background: green;
+  margin: 50px 0 0 0;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeThirdSection {
+  width: 80%;
+  height: 300px;
+  background: green;
+  margin: 50px 0 0 0;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeFourthSection {
+  width: 80%;
+  height: 300px;
+  background: green;
+  margin: 50px 0 0 0;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeFifthSection {
+  width: 80%;
+  height: 200px;
+  background: rgb(0, 115, 128);
+  margin: 50px 0 0 0;
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  padding: 10px 0;
+
+  color: #424874;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.content {
+  width: 100%;
+  height: 80%;
+  background: goldenrod;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
